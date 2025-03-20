@@ -1,14 +1,14 @@
-# [Tab Spoofer] React JS
+# [Tab Spoofer] ReactJS
 
-The React JS Tab Spoofer works similarly to the Vanilla JS version but is implemented in a way that integrates seamlessly with React applications. This script manipulates the browser tab’s title and favicon when the tab is inactive by changing them to a random selection of predefined websites.
+The **ReactJS Tab Spoofer** works much like the Vanilla JS version, but it’s designed to integrate smoothly with React applications. This script will change the title and favicon of your browser tab when it's inactive, swapping them out with a random selection from a list of popular websites.
 
-### How to Use?
+### How to Use:
 
-1. Install the Script:
-   - Copy the Tab Spoofer React script into your React project (you can place it in a new file like `TabSpoofer.jsx`).
+1. **Add the Script:**
+   - First, copy the **Tab Spoofer React** script into your React project. You can put it in a new file, like `TabSpoofer.jsx`, in your components folder.
    
-2. Modify the App Component:
-   - In your main `App.jsx` or a specific component, import and use the `TabSpoofer` component like this:
+2. **Modify the App Component:**
+   - Next, import and use the `TabSpoofer` component in your main `App.jsx` or in any other component where you want to apply the tab spoofing. For example:
      ```js
      import React from "react";
      import TabSpoofer from "./TabSpoofer"; // adjust the path if needed
@@ -24,23 +24,21 @@ The React JS Tab Spoofer works similarly to the Vanilla JS version but is implem
 
      export default App;
      ```
-    - Import and place the `<TabSpoofer />` only in the pages where you want this to happen. 
-    - If you want this for the whole website, consider placing it in `main.jsx`. Refer to the example with ReactJS + Vite for additional information.
+   - If you want the spoofing to be applied across the entire site, consider adding it to `main.jsx` so that it’s included globally. Check out the example with **ReactJS + Vite** if you need more guidance.
 
-3. Add the Default Favicon:
-   - Make sure your React app has a default favicon by placing a favicon in the `public` folder and modifying the `index.html` file accordingly.
+3. **Set Up the Default Favicon:**
+   - Make sure your React app has a default favicon by placing your favicon in the `public` folder. Then, update the `index.html` file to reference it:
      ```html
      <link rel="icon" href="/favicon.ico" />
      ```
 
-4. Customize the Spoofing Options:
-   - Open the `TabSpoofer.jsx` file and locate the `spoofOptions` array to add, remove, or modify the spoofing sites as needed:
+4. **Customize the Spoofing Options:**
+   - Open the `TabSpoofer.jsx` file, and you’ll find the `spoofOptions` array. This is where you can add or remove websites for spoofing. For example, to add a new site:
      ```js
      { title: "New Website", icon: "https://example.com/favicon.ico" }
      ```
 
-5. Run Your React App:
-   - Start your React app as usual.
-   - When you navigate away from the tab, the tab title and favicon will randomly change to one of the spoofing options.
-
+5. **Run Your React App:**
+   - Start your app as usual, and you’re good to go!
+   - Whenever you switch away from the tab, the title and favicon will change to one of the spoofing options at random. When you come back, it will return to the original tab title and icon.
 

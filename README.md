@@ -17,3 +17,5 @@ Tab Spoofer is a JavaScript-based solution that allows you to manipulate the tit
 #### How to Use:
 
 You can use the Tab Spoofer script in any project. Click on the folders above to open the required version.
+
+### Inspired by: [sizeof.cat](https://sizeof.cat/)

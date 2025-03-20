@@ -16,6 +16,6 @@
 
 #### How to Use:
 
-It’s simple to add **Tab Spoofer** to any project. Just follow the instructions in the tabs above to pick the version you need.
+It’s simple to add **Tab Spoofer** to any project. Just follow the instructions in the folders above to pick the version you need.
 
 ### Inspired by: [sizeof.cat](https://sizeof.cat/)
